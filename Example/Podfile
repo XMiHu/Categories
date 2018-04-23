@@ -1,4 +1,8 @@
 use_frameworks!
+    
+    platform :ios, '9.0'
+    source 'https://github.com/CocoaPods/Specs.git'
+    source 'https://github.com/XMiHu/Specs'
 
 target 'Categories_Example' do
   pod 'Categories', :path => '../'

@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		33610197C5937EC92105C760 /* Pods-Categories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Categories_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Categories_Tests/Pods-Categories_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3840A377C1920121B0D28414 /* Categories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Categories.podspec; path = ../Categories.podspec; sourceTree = "<group>"; };
+		3840A377C1920121B0D28414 /* Categories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Categories.podspec; path = ../Categories.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40E38B20ACB5CC71A9AB6526 /* Pods-Categories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Categories_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Categories_Tests/Pods-Categories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		463F3D461476F3DAC9C77523 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		463F3D461476F3DAC9C77523 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Categories_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Categories_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		6BC6543213C593AB77F41F9F /* Pods_Categories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Categories_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B58DA5D3327AA9CD919FE56E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B58DA5D3327AA9CD919FE56E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BD2A5CFC37029953E1C0DC50 /* Pods_Categories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Categories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E96A47C93551771C53403B /* Pods-Categories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Categories_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Categories_Example/Pods-Categories_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F89B81ECABA40755697CA959 /* Pods-Categories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Categories_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Categories_Example/Pods-Categories_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -302,10 +302,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Categories_Example/Pods-Categories_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Categories/Categories.framework",
+				"${BUILT_PRODUCTS_DIR}/HuaTMediator/HuaTMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Categories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HuaTMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -488,6 +490,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Categories/Categories-Prefix.pch";
 				INFOPLIST_FILE = "Categories/Categories-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +506,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Categories/Categories-Prefix.pch";
 				INFOPLIST_FILE = "Categories/Categories-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

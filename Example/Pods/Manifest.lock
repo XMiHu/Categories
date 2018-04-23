@@ -1,0 +1,23 @@
+PODS:
+  - Categories (0.1.0):
+    - HuaTMediator
+  - HuaTMediator (0.1.0)
+
+DEPENDENCIES:
+  - Categories (from `../`)
+
+SPEC REPOS:
+  https://github.com/XMiHu/Specs:
+    - HuaTMediator
+
+EXTERNAL SOURCES:
+  Categories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Categories: 3576a9e884682c6d5562ef7bc28468ec6cf8b8f0
+  HuaTMediator: 68b907808b54c4d976f093e637940f280654c20a
+
+PODFILE CHECKSUM: b64f98394149bf0b75d3806096c3d3a220309270
+
+COCOAPODS: 1.5.0

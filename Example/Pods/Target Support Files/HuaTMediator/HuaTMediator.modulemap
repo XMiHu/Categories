@@ -1,0 +1,6 @@
+framework module HuaTMediator {
+  umbrella header "HuaTMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}
