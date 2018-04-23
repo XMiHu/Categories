@@ -5,7 +5,7 @@
 //  Created by MiHu on 2018/4/23.
 //
 
-#import "MHMediator.h"
+#import <HuaTMediator/MHMediator.h>
 
 @interface MHMediator (HuaTMediatorCategory)
 

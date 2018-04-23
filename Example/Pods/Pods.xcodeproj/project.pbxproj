@@ -654,36 +654,6 @@
 			};
 			name = Release;
 		};
-		3FF7D6CA4899FB37F1E022B40F29A617 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1930F7BE2683667795A812A11E1F985 /* Categories.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Categories/Categories-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Categories/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Categories/Categories.modulemap";
-				PRODUCT_MODULE_NAME = Categories;
-				PRODUCT_NAME = Categories;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		6451FBDD8AF70C73F8580C5FFB074BFF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1106622F5013655F68631EF8CDCBB26D /* HuaTMediator.xcconfig */;
@@ -748,7 +718,7 @@
 			};
 			name = Debug;
 		};
-		7FAEFAA6DA8F7B6F708F59DE58A3159F /* Release */ = {
+		923921AC048DFA23D3BC8C6506E94AC6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A1930F7BE2683667795A812A11E1F985 /* Categories.xcconfig */;
 			buildSettings = {
@@ -764,7 +734,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Categories/Categories-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Categories/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Categories/Categories.modulemap";
 				PRODUCT_MODULE_NAME = Categories;
@@ -778,6 +748,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		94D45F68045D79CC7EDE6A5392C6753F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1930F7BE2683667795A812A11E1F985 /* Categories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Categories/Categories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Categories/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Categories/Categories.modulemap";
+				PRODUCT_MODULE_NAME = Categories;
+				PRODUCT_NAME = Categories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F2BD3697BFA18CBDC3D144882FEC037A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -934,8 +934,8 @@
 		82D4033A79616DB8BD9D19F0C2F70150 /* Build configuration list for PBXNativeTarget "Categories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FF7D6CA4899FB37F1E022B40F29A617 /* Debug */,
-				7FAEFAA6DA8F7B6F708F59DE58A3159F /* Release */,
+				94D45F68045D79CC7EDE6A5392C6753F /* Debug */,
+				923921AC048DFA23D3BC8C6506E94AC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
